@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vazados 🔥</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <meta name="description" content="Conteúdo privado que você não vê todo dia." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Rainbow Background -->
+  <div id="rainbow-bg"></div>
+
+  <!-- Toast notification -->
+  <div class="toast" id="toast" data-items='[{"text":"Não esperava encontrar tanto conteúdo exclusivo.","name":"Matheus","age":24},{"text":"Entrei por curiosidade e fiquei sem palavras.","name":"Lucas","age":22},{"text":"Melhor decisão que tomei essa semana 🔥","name":"Pedro","age":27},{"text":"Valeu cada segundo, recomendo demais.","name":"Rafael","age":31},{"text":"Achei que era só hype, mas me surpreendeu.","name":"João","age":25},{"text":"Conteúdo que não se vê em qualquer lugar.","name":"Bruno","age":29},{"text":"Simplesmente surreal a qualidade de tudo! 😈","name":"Gabriel","age":23},{"text":"Achei que não ia achar nada, me enganei bonito.","name":"Felipe","age":28},{"text":"O grupo VIP entrega tudo o que promete e mais.","name":"Thiago","age":26},{"text":"Com certeza o melhor canal que já entrei.","name":"Rodrigo","age":30},{"text":"Qualidade surreal, vale super a pena! 🔥","name":"Leandro","age":21},{"text":"Acabei de entrar e me surpreendi real.","name":"Diego","age":27},{"text":"Sensacional, conteúdo atualizado direto!","name":"Gustavo","age":29},{"text":"Top demais, superou todas as minhas expectativas.","name":"Eduardo","age":24},{"text":"Entrei e não me arrependo de nada 🤤","name":"Vinicius","age":26},{"text":"Sem palavras pro que tem dentro desse grupo.","name":"Marcelo","age":32}]'>
+    <span class="toast-icon">💬</span>
+    <div class="toast-text">
+      <span class="toast-main" id="toast-text"></span>
+      <span class="toast-sub" id="toast-name"></span>
+    </div>
+  </div>
+
+  <main class="container">
+
+    <!-- Profile section -->
+    <section class="profile">
+      <div class="avatar-wrapper">
+        <div class="avatar-ring">
+          <img src="foto2_opt.jpg" alt="Foto de perfil" class="avatar-img" />
+        </div>
+        <span class="online-dot"></span>
+      </div>
+
+      <h1 class="profile-name">
+        Grupo vip
+        <img src="verificado.png" alt="Verificado" class="verified-img" />
+      </h1>
+      <p class="profile-tagline">
+        🔒 Conteúdo privado que você não vê todo dia
+      </p>
+
+      <div class="profile-badges">
+        <!-- Pill de localização -->
+        <div class="loc-pill">
+          <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="loc-icon" aria-hidden="true">
+            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span class="loc-pill-text">
+            VAZADOS EM <span class="loc-highlight" id="location-text">IRATI, PR.</span> VEM VER?
+          </span>
+        </div>
+
+        <!-- Prova social -->
+        <div class="proof-line">
+          <span class="live-dot"></span>
+          🔥 Mais de 1.700 pessoas já entraram no VIP
+        </div>
+      </div>
+    </section>
+
+    <!-- Links section -->
+    <section class="links">
+
+      <!-- Telegram VIP Group -->
+      <a href="#" class="link-card telegram-card" id="link-telegram">
+        <div class="link-card-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="tg-icon">
+            <path d="M11.944 0A12 12 0 1 0 24 12 12 12 0 0 0 11.944 0ZM18.809 8.146l-2.046 9.638c-.154.682-.556.848-1.126.528l-3.111-2.292-1.5 1.443c-.166.166-.305.305-.625.305l.223-3.163 5.75-5.192c.25-.222-.054-.346-.388-.124L7.25 14.271l-3.062-.956c-.665-.208-.679-.665.139-.984l11.97-4.614c.554-.201 1.038.123.512.429Z"/>
+          </svg>
+        </div>
+        <div class="link-card-content">
+          <span class="link-card-title">
+            <span>GRUPO VIP</span>
+            <img src="verificado.png" alt="Verificado" class="verified-img-card" />
+            <img src="18.png" alt="+18" class="badge-18-img-card" />
+          </span>
+          <span class="link-card-sub">Onde tudo acontece sem censura</span>
+        </div>
+        <div class="link-card-arrow">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 18l6-6-6-6"/>
+          </svg>
+        </div>
+      </a>
+
+      <p class="link-disclaimer">
+        O que acontece em <span id="disclaimer-location">Irati</span>... fica apenas entre nós.
+      </p>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 grupo vip 🔞 • luxo &amp; privacidade</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
